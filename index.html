@@ -21,10 +21,19 @@
 	<body>
 	
 	<!-- Mobile Button	-->
+	<div class="mob-nav-box">
+		<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a class="first-mob-nav" href="#">Product</a>
+		  <a href="#">Services</a>
+		  <a href="#">Blog</a>
+		  <a href="#">Contact</a>
+		</div>
 
-	<button type="button" id="mobile-nav-toggle">
-		<i class="lnr lnr-menu"></i>
-	</button>
+		<span id="mob-nav-btn" class="mob-nav" style="font-size:30px;cursor:pointer" onclick="openNav()">
+			<i class="lnr lnr-menu"></i>
+		</span>
+	</div>
 
 	<!--Header Starts Here-->
 	<header id="header" class="header">
@@ -93,21 +102,21 @@
 		<div class="container-fluid">
 			<h1 class="what-we-offer" align="center"> What we Offer to our Supporters</h1>
 			<div class="row service-row justify-content-center m-5">
-				<div id="service-box-1" class="col-lg-3 service-box">
+				<div id="service-box-1" class="col-lg-3 col-sm-3 service-box">
 					<div class="service-icon p-4">
 						<img id="team-icon-size" src="img/icons/team-black.png" alt="team icon"><br>
 						<span id="service-title-1" class="service-title">Red Team</span>
 						<p class="service-content">Red Teaming covers a multi-layered attack simulation aimed at measuring.</p>
 					</div>
 				</div>
-				<div id="service-box-2" class="col-lg-3 service-box">
+				<div id="service-box-2" class="col-lg-3 col-sm-3 service-box">
 					<div class="service-icon p-4">
 						<img id="cloud-icon-size" src="img/icons/cloud-black.png" alt="cloud icon"><br>
 						<span id="service-title-2" class="service-title">Cloud Security</span>
 						<p class="service-content">Cloud computing security or, more simply, cloud securityrefers to a broad set of policies.</p>
 					</div>
 				</div>
-				<div id="service-box-3" class="col-lg-3 service-box">
+				<div id="service-box-3" class="col-lg-3 col-sm-3 service-box">
 					<div class="service-icon p-4">
 						<img id="pentest-icon-size" src="img/icons/infected-black.png" alt="pentest icon"><br><br>
 						<span id="service-title-3" class="service-title">Penetration Testing</span>
@@ -116,21 +125,21 @@
 				</div>
 			</div>
 			<div class="row service-row justify-content-center m-5">
-				<div id="service-box-4" class="col-lg-3 service-box">
+				<div id="service-box-4" class="col-lg-3 col-sm-3 service-box">
 					<div class="service-icon p-4">
 						<img id="training-icon-size" src="img/icons/presentation-black.png" alt="training icon"><br><br>
 						<span id="service-title-4" class="service-title">Training &amp; Consulting</span>
 						<p class="service-content">We  delivers a range of web security related training courses.</p>
 					</div>
 				</div>
-				<div id="service-box-5" class="col-lg-3 service-box">
+				<div id="service-box-5" class="col-lg-3 col-sm-3 service-box">
 					<div class="service-icon p-4">
 						<img id="globe-icon-size" src="img/icons/globe-black.png" alt="training icon"><br><br>
 						<span id="service-title-5" class="service-title">Training &amp; Consulting</span>
 						<p class="service-content">We  delivers a range of web security related training courses.</p>
 					</div>
 				</div>
-				<div id="service-box-6" class="col-lg-3 service-box">
+				<div id="service-box-6" class="col-lg-3 col-sm-3 service-box">
 					<div class="service-icon p-4">
 						<img id="shield-icon-size" src="img/icons/shield2-black.png" alt="training icon"><br><br>
 						<span id="service-title-6" class="service-title">Training &amp; Consulting</span>
@@ -442,17 +451,17 @@
 				<h2 class="footer-title">get in touch</h2>
 			</div>
 			<div class="row get-in-touch-row" align="center">
-				<div class="col-lg-4 contact-box">
+				<div class="col-lg-4 col-sm-4 contact-box">
 					<span class="footer-icon lnr lnr-phone-handset"></span>
 					<div class="phone-no phone-no-margin">
 						512-421-3940
 					</div>
 				</div>
-				<div class="col-lg-4 contact-box">
+				<div class="col-lg-4 col-sm-4 contact-box">
 					<i class="footer-icon fa fa-envelope"></i>
 					<div class="email-id">email@support.com</div>
 				</div>
-				<div class="col-lg-4 contact-box">
+				<div class="col-lg-4 col-sm-4 contact-box">
 					<i class="footer-icon fa fa-map-marker"></i>
 					<div class="address"> 1739 Bubby Drive</div>
 				</div>
@@ -477,6 +486,19 @@
 	<!-- Team Ends Here -->
 
 	<!-- Scripts -->
+	<script type="text/javascript">
+	/* Open the sidenav */
+	function openNav() {
+	    document.getElementById("mySidenav").style.width = "100%";
+		document.getElementById("mob-nav-btn").style.display = "none";
+	}
+
+	/* Close/hide the sidenav */
+	function closeNav() {
+	    document.getElementById("mySidenav").style.width = "0";
+	    document.getElementById("mob-nav-btn").style.display = "block";
+	}
+	</script>
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>			
 	<script src="js/owl.carousel.min.js"></script>
