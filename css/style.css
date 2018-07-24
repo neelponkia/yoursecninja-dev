@@ -437,6 +437,7 @@ body {
 
 .who-we-are {
 	color: white;
+	justify-content:center !important;
 }
 
 .who-we-content{
@@ -788,11 +789,7 @@ body {
 		padding: 10px 15px;
 		text-align: center;
 	}
-	
-	.who-we-are h2 {
-		padding-left: 70px;
-	}
-	
+		
 	.contact-box {
 		margin-bottom: 1em;
 	}
@@ -815,19 +812,520 @@ body {
 		margin-right: 0em;
 		margin-bottom: 1em;	
 	}
+}
 	
 /*Moible in landscape mode*/
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
+	.top-header {
+		display: none;
+	}
+	.bottom-header {
+		padding: 20px 25px;
+	}
+
+	.left_head {
+		font-weight: bolder;
+		display: inline-block;
+	}
+
+	.right_head {
+		display: none;
+	}
 	
+	#mobile-nav-toggle {
+		display: inline;
+	}
+		#mobile-nav-toggle {
+		top: 22px;
+	}
+	
+	#mobile-nav-toggle {
+		position: fixed;
+		right: 15px;
+		z-index: 999;
+		top: 19px;
+		border: 0;
+		background: none;
+		font-size: 24px;
+		transition: all 0.4s;
+		outline: none;
+		cursor: pointer;
+	}
+	
+	.landing-area {
+		padding-top: 7em;
+		text-align: left;
+		padding-left: 2em;
+	}
+	
+	.landing-title {
+		font-size: 2.5em;
+	}
+	
+	.landing-area {
+		height: 500px;
+	}
+	
+	.we-secure {
+		padding-right: 0em;
+	}
+	
+	.landing-subtitle {
+    	margin-top: 1em;
+	}
+	
+	.landing-text {
+    	width: 100%;
+	}
+	
+	.start-button {
+		padding: 11px 24px;
+		margin-top: 1em;
+		font-size: 13px;
+	}
+	
+	.what-we-offer {
+		font-size: 2.2em;
+	}
+	
+	.service-box {
+    	height: 9.3em;	
+		margin-bottom: 1.5em;
+		margin-right: 0em;
+	}
+	.service-content {
+		display: none;
+	}
+	
+	.service-row {
+		padding-left: 0em;
+	}
+	
+	.tesomial-title {
+		padding-top: 0px;
+	}
+	
+	.tesomial-title h1 {
+		font-size: 2.0em;
+	}
+	
+	#testomial-area {
+		padding-top: 50px;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	
+	.blog-main-title h1 {
+		font-size: 2em;
+		text-align: center;
+		font-weight: bold;
+	}
+	
+	.blog-subtitle {
+		margin-top: 10px;
+		margin-bottom: 3rem;
+		margin-left: 0.4em;
+	}
+	
+	.blog-box {
+		margin-bottom: 1.7em;
+	}
+	
+	.new-section {
+		padding-bottom: 20px;
+		padding-top: 55px;
+	}
+	
+	.partner-title {
+		text-align: center;
+	}
+	
+	.partner-title h1 {
+		font-size: 1.7em;
+	}
+	
+	#owl-demo {
+		padding: 40px 50px;
+	}
+	
+	#owl-demo img {
+		width: 65%;
+	}
+	
+	.who-we-content {
+		padding: 10px 15px;
+		text-align: center;
+	}
+		
+	.contact-box {
+		margin-bottom: 1em;
+	}
+	
+	.get-in-touch-row {
+		margin-top: 2em;
+	}
+	
+	.contact-box {
+		margin-bottom: 1.7em;
+	}
+
+	.contact-name {
+		width: 73%;
+		margin-right: 0em;
+	}
+	
+	.contact-email {
+		width: 73%;
+		margin-right: 0em;
+		margin-bottom: 1em;	
+	}
 }
 
 @media only screen and (min-width: 481px) and (max-width: 540px) {
+	.top-header {
+		display: none;
+	}
+	.bottom-header {
+		padding: 20px 25px;
+	}
+
+	.left_head {
+		font-weight: bolder;
+		display: inline-block;
+	}
+
+	.right_head {
+		display: none;
+	}
 	
+	#mobile-nav-toggle {
+		display: inline;
+	}
+		#mobile-nav-toggle {
+		top: 22px;
+	}
+	
+	#mobile-nav-toggle {
+		position: fixed;
+		right: 15px;
+		z-index: 999;
+		top: 19px;
+		border: 0;
+		background: none;
+		font-size: 24px;
+		transition: all 0.4s;
+		outline: none;
+		cursor: pointer;
+	}
+	
+	.landing-area {
+		padding-top: 7em;
+		text-align: left;
+		padding-left: 2em;
+	}
+	
+	.landing-title {
+		font-size: 2.5em;
+	}
+	
+	.landing-area {
+		height: 500px;
+	}
+	
+	.we-secure {
+		padding-right: 0em;
+	}
+	
+	.landing-subtitle {
+    	margin-top: 1em;
+	}
+	
+	.landing-text {
+    	width: 100%;
+	}
+	
+	.start-button {
+		padding: 11px 24px;
+		margin-top: 1em;
+		font-size: 13px;
+	}
+	
+	.what-we-offer {
+		font-size: 2.2em;
+	}
+	
+	.service-box {
+    	height: 10em;
+		margin-bottom: 1.8em;
+		margin-right: 3em;
+		margin-left: 3em;
+	}
+	.service-content {
+		display: none;
+	}
+	
+	.service-row {
+		padding-left: 0em;
+	}
+	
+	.tesomial-title {
+		padding-top: 0px;
+	}
+	
+	.tesomial-title h1 {
+		font-size: 2.0em;
+	}
+	
+	#testomial-area {
+		padding-top: 50px;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	
+	.blog-main-title h1 {
+		font-size: 2em;
+		text-align: center;
+		font-weight: bold;
+	}
+	
+	.blog-subtitle {
+		margin-top: 10px;
+		margin-bottom: 3rem;
+		margin-left: 0.4em;
+	}
+	
+	.blog-box {
+		margin-bottom: 1.7em;
+	}
+	
+	.new-section {
+		padding-bottom: 20px;
+		padding-top: 55px;
+	}
+	
+	.partner-title {
+		text-align: center;
+	}
+	
+	.partner-title h1 {
+		font-size: 1.7em;
+	}
+	
+	#owl-demo {
+		padding: 40px 90px;
+	}
+	
+	#owl-demo img {
+		width: 65%;
+	}
+	
+	.who-we-content {
+		padding: 10px 15px;
+		text-align: center;
+	}
+		
+	.contact-box {
+		margin-bottom: 1em;
+	}
+	
+	.get-in-touch-row {
+		margin-top: 2em;
+	}
+	
+	.contact-box {
+		margin-bottom: 1.7em;
+	}
+
+	.contact-name {
+		width: 73%;
+		margin-right: 0em;
+	}
+	
+	.contact-email {
+		width: 73%;
+		margin-right: 0em;
+		margin-bottom: 1em;	
+	}
+
+	#team-icon-size, #cloud-icon-size {
+		padding-bottom: 1em;
+	}
 }
 
 @media only screen and (min-width: 541px) and (max-width: 767px) {
+	.top-header {
+		display: none;
+	}
+	.bottom-header {
+		padding: 20px 25px;
+	}
+
+	.left_head {
+		font-weight: bolder;
+		display: inline-block;
+	}
+
+	.right_head {
+		display: none;
+	}
 	
+	#mobile-nav-toggle {
+		display: inline;
+	}
+		#mobile-nav-toggle {
+		top: 22px;
+	}
+	
+	#mobile-nav-toggle {
+		position: fixed;
+		right: 15px;
+		z-index: 999;
+		top: 19px;
+		border: 0;
+		background: none;
+		font-size: 24px;
+		transition: all 0.4s;
+		outline: none;
+		cursor: pointer;
+	}
+	
+	.landing-area {
+		padding-top: 7em;
+		text-align: left;
+		padding-left: 2em;
+	}
+
+	.landing-text {
+		padding-top: 2.8em;
+	}
+	
+	.landing-title {
+		font-size: 2.5em;
+	}
+	
+	.landing-area {
+		height: 500px;
+	}
+	
+	.we-secure {
+		padding-right: 0em;
+	}
+	
+	.landing-subtitle {
+    	margin-top: 1em;
+	}
+	
+	.landing-text {
+    	width: 100%;
+	}
+	
+	.start-button {
+		padding: 11px 24px;
+		margin-top: 1em;
+		font-size: 13px;
+	}
+	
+	.what-we-offer {
+		font-size: 2.2em;
+	}
+	
+	.service-box {
+    	height: 10em;
+		margin-bottom: 1.8em;
+		margin-right: 3em;
+		margin-left: 3em;
+	}
+	.service-content {
+		display: none;
+	}
+	
+	.service-row {
+		padding-left: 0em;
+	}
+	
+	.tesomial-title {
+		padding-top: 0px;
+	}
+	
+	.tesomial-title h1 {
+		font-size: 2.0em;
+	}
+	
+	#testomial-area {
+		padding-top: 50px;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	
+	.blog-main-title h1 {
+		font-size: 2em;
+		text-align: center;
+		font-weight: bold;
+	}
+	
+	.blog-subtitle {
+		margin-top: 10px;
+		margin-bottom: 3rem;
+		margin-left: 0.4em;
+	}
+	
+	.blog-box {
+		margin-bottom: 1.7em;
+	}
+	
+	.new-section {
+		padding-bottom: 20px;
+		padding-top: 55px;
+	}
+	
+	.partner-title {
+		text-align: center;
+	}
+	
+	.partner-title h1 {
+		font-size: 1.7em;
+	}
+	
+	#owl-demo {
+		padding: 40px 115px;
+	}
+	
+	#owl-demo img {
+		width: 65%;
+	}
+	
+	.who-we-content {
+		padding: 10px 15px;
+		text-align: center;
+	}
+		
+	.contact-box {
+		margin-bottom: 1em;
+	}
+	
+	.get-in-touch-row {
+		margin-top: 2em;
+	}
+	
+	.contact-box {
+		margin-bottom: 1.7em;
+	}
+
+	.contact-name {
+		width: 73%;
+		margin-right: 0em;
+	}
+	
+	.contact-email {
+		width: 73%;
+		margin-right: 0em;
+		margin-bottom: 1em;	
+	}
+
+	#team-icon-size, #cloud-icon-size {
+		padding-bottom: 1em;
+	}
 }
 
 /*Tablets*/
