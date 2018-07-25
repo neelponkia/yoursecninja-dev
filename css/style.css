@@ -696,7 +696,7 @@ body {
 	z-index: 999;
 	background: #fff;
 	float: right;
-	right: 0;
+	right: 20px;
 }
 
 @media screen and (max-height: 450px) {
