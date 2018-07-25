@@ -1,4 +1,7 @@
-/*color: #988fff*/
+/*color-old: #399BF5*/
+/*color-new-light-blue: #399BF5*/
+/*color-new-white: #FAFAFA*/
+/*color-new-blue: #2B7FD9*/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600');
 html {
@@ -43,7 +46,7 @@ body {
 }
 
 .top-header a:hover {
-	color: #988fff;
+	color: #399BF5;
 }
 
 .top-header ul {
@@ -95,11 +98,11 @@ body {
 
 .right_head ul li a:hover {
 	text-decoration: none;
-	color: #988fff;
+	color: #399BF5;
 }
 
 .landing-background {
-	background: url(../img/banner-bg2.jpg) center;
+	background: url(../img/banner-bg2.png) center;
     background-size: cover;
     color: #fff;
 /*    margin-top: 4.5em;*/
@@ -207,13 +210,13 @@ body {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-	-webkit-box-shadow: 0px 0px 30px 3px rgba(152,143,255,1);
-	-moz-box-shadow: 0px 0px 30px 3px rgba(152,143,255,1);
-	box-shadow: 0px 0px 30px 3px rgba(152,143,255,1);
+	-webkit-box-shadow: 0px 0px 30px 3px rgba(57, 155, 245, 1);
+	-moz-box-shadow: 0px 0px 30px 3px rgba(57, 155, 245, 1);
+	box-shadow: 0px 0px 30px 3px rgba(57, 155, 245, 1);
 }
 
 .active-title{
-	color: #988fff;
+	color: #399BF5;
 	    -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -221,8 +224,7 @@ body {
 }
 
 .testomial-background {
-	background-image: -webkit-linear-gradient(0deg, #888fff 0%, #ce90ff 100%);
-    background-image: -ms-linear-gradient(0deg, #888fff 0%, #ce90ff 100%);
+	background-image: url(../img/background-img.jpg);
 }
 
 .tesomial-title {
@@ -308,7 +310,7 @@ body {
 }
 
 .blog-title:hover {
-	color: #988fff;
+	color: #399BF5;
 }
 
 .blog-content {
@@ -329,7 +331,7 @@ body {
 }
 
 .blog-box .details-btn {
-	border: 1px solid #988fff;
+	border: 1px solid #399BF5;
 	width: 40px;
 	height: 40px;
 	border-radius: 20px;
@@ -360,7 +362,7 @@ body {
 
 .blog-box .details-btn:hover {
 	width: 140px;
-	background: #988fff;
+	background: #399BF5;
 	box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2)
 }
 
@@ -454,7 +456,7 @@ body {
 }
 .our-team-title {
 	letter-spacing: 1px; 
-	border-bottom: 3px solid #988fff;
+	border-bottom: 3px solid #399BF5;
 	padding-bottom: 0.3em;
 }
 
@@ -543,7 +545,7 @@ body {
 }
 
 .team:hover .team-content span {
-    color: #988fff;
+    color: #399BF5;
 }
 
 .team .team-social {
@@ -560,7 +562,7 @@ body {
     line-height: 50px;
     width: 50px;
     text-align: center;
-    background-color: #988fff;
+    background-color: #399BF5;
     color: #FFF;
 }
 
@@ -576,7 +578,7 @@ body {
 .footer-title {
 	text-transform: capitalize;
 	padding-bottom: 0.3em;
-	border-bottom: 3px solid #988fff;
+	border-bottom: 3px solid #399BF5;
 }
 
 .get-in-touch-row {
@@ -585,7 +587,7 @@ body {
 
 .footer-icon {
 	font-size: 36px;
-	color: #988fff;
+	color: #399BF5;
 	margin-bottom: 20px;
 }
 
@@ -639,7 +641,7 @@ body {
     border-radius: 3px;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
-	background: #988fff;
+	background: #399BF5;
 	color: white;
 	cursor: pointer;
 }
@@ -672,7 +674,7 @@ body {
 }
 
 .sidenav a:hover {
-    color: #988fff;
+    color: #399BF5;
 }
 
 .sidenav .closebtn {
