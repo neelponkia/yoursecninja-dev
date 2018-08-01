@@ -40,6 +40,10 @@ body {
     background-color: #222222;
 }
 
+.top-header-left ul li i{
+	font-size: 18px;
+}
+
 .top-header a {
 	color: #fff;
 	transition: all 0.5s;
@@ -65,7 +69,7 @@ body {
 
 .bottom-header {
 	background: #fff;
-	padding: 20px 120px;
+	padding: 11px 120px;
 }
 
 .header-scrolled {
@@ -76,13 +80,14 @@ body {
 
 .left_head {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 30px;
 	display: inline-block;
 }
 
 .right_head {
 	display: inline-block;
 	float: right;
+	margin-top: 6px;
 }
 .right_head ul {
 	padding: 0;
@@ -91,9 +96,10 @@ body {
 }
 .right_head ul li {
 	padding-left: 1.6em;	
-	font-weight: lighter;
+	font-weight: bold;
 	display: inline;
 	list-style-type: none;
+	font-size: 18px;
 }
 
 .right_head ul li a:hover {
@@ -135,7 +141,7 @@ body {
 
 .start-button {
 	background-color: #fff;
-    border-radius: 0;
+    border-radius: 22px;
     padding: 13px 30px;
     border: 1px solid transparent;
     color: #222;
@@ -144,6 +150,11 @@ body {
 	font-size: 15px;
 	letter-spacing: 0.5px;
 	transition: all 0.4s ease 0s;
+}
+
+.contact-us-button {
+	margin-left: 24px;
+	border-radius: 22px;
 }
 
 .start-button:hover {
@@ -442,7 +453,7 @@ body {
 }
 
 .who-we-are {
-	color: white;
+	color: black;
 	justify-content:center !important;
 }
 
@@ -780,6 +791,11 @@ body {
 		font-size: 13px;
 	}
 	
+
+	.contact-us-button
+	{
+		margin-left: 24px;
+	}
 	.what-we-offer {
 		font-size: 2.2em;
 	}
