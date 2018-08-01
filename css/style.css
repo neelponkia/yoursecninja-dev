@@ -44,6 +44,10 @@ body {
 	font-size: 18px;
 }
 
+.yoursec:hover {
+	color: black;
+}
+
 .top-header a {
 	color: #fff;
 	transition: all 0.5s;

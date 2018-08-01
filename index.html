@@ -18,7 +18,7 @@
 			<link rel="stylesheet" href="css/bootstrap.css">
 			<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body>
+	<body id="home">
 	
 	<!-- Mobile Button	-->
 	<div class="mob-nav-box">
@@ -27,7 +27,7 @@
 		  <a class="first-mob-nav" href="#">Product</a>
 		  <a href="#">Services</a>
 		  <a href="#">Blog</a>
-		  <a href="#">Contact</a>
+		  <a href="#contact-link">Contact</a>
 		</div>
 
 		<span id="mob-nav-btn" class="mob-nav" style="font-size:30px;cursor:pointer" onclick="openNav()">
@@ -66,19 +66,19 @@
 					</div>
 					<div class="col-lg-6 col-sm-6 col-8 top-right-header">
 				  		<a href="tel:+91 635 457 4440" style="margin-right: 10px;">+91 635 457 4440</a>
-				  		<a href="mailto:contact@colorlib.com">contact@yoursecninja.com</a>				
+				  		<a href="mailto:contact@yoursecninja.com">contact@yoursecninja.com</a>				
 				  	</div>
 				</div>
 			</div>	
 		</div>
 		<div class="bottom-header">
-			<div class="left_head">Yoursecninja</div>
+			<div class="left_head"><a href="#home" class="yoursec">Yoursecninja</a></div>
 			<div class="right_head">
 				<ul>
-					<li><a href="#">Product</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#products" class="slide-section">Product</a></li>
+					<li><a href="#services" class="slide-section">Services</a></li>
+					<li><a href="#blog" class="slide-section">Blog</a></li>
+					<li><a href="#contact-us" class="slide-section">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -91,15 +91,15 @@
 			<div class="row landing-text">
 				<h1 class="landing-title">Here at Yoursecninja,<br><span class="we-secure">we secure.</span> </h1>
 				<p class="landing-subtitle"> End to end security resource, distinguishable penetration testing services alongside prominent vulnerability assessment.</p>
-				<a href="#" class="start-button primary-button">GET STARTED</a>
-				<a href="#" class="start-button primary-button contact-us-button" >CONTACT US</a>
+				<a href="#who-we-are" class="start-button primary-button">GET STARTED</a>
+				<a href="#contact-us" class="start-button primary-button contact-us-button" >CONTACT US</a>
 			</div>
 		</div>
 	</section>
 	<!--Landing-section Ends Here-->
 
 
-	<section class="who-we-are new-section ">
+	<section id="who-we-are" class="who-we-are new-section ">
 		<div class="container" >
 			<div class="row who-we-are">
 				<h1>Who we are</h1>
@@ -110,7 +110,7 @@
 
 
 	<!--Main-section Starts Here-->
-	<section class="main-section1 new-section">
+	<section id="services" class="main-section1 new-section">
 		<div class="container-fluid">
 			<h1 class="what-we-offer" align="center"> What we Offer to our Supporters</h1>
 			<div class="row service-row justify-content-center m-5">
@@ -368,7 +368,7 @@
 
 	<!-- Footer Starts Here -->
 
-	<section class="new-section footer-section">
+	<section id="contact-us" class="new-section footer-section">
 		<div class="container">
 			<div class="row justify-content-center">
 				<h2 class="footer-title">get in touch</h2>
@@ -377,12 +377,12 @@
 				<div class="col-lg-4 col-sm-4 contact-box">
 					<span class="footer-icon lnr lnr-phone-handset"></span>
 					<div class="phone-no phone-no-margin">
-						512-421-3940
+						+91 635 457 4440
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-4 contact-box">
 					<i class="footer-icon fa fa-envelope"></i>
-					<div class="email-id">email@support.com</div>
+					<div><a style="color: white" href="mailto:contact@yoursecninja.com">contact@yoursecninja.com</a></div>
 				</div>
 				<div class="col-lg-4 col-sm-4 contact-box">
 					<i class="footer-icon fa fa-map-marker"></i>
