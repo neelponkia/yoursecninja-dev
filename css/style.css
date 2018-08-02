@@ -456,14 +456,26 @@ body {
 	color: #777;
 }
 
+#who-we-are {
+	border-left: 8px solid #399BF5;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
 .who-we-are {
 	color: black;
 	justify-content:center !important;
+
+}
+
+.who-we-are h1 {
+	padding-bottom: 0.3em;
+    border-bottom: 2px solid #399BF5;
 }
 
 .who-we-content{
 	font-size: 14px;
-	padding-top: 10px;
+	padding-top: 30px;
 }
 
 .our-team {
