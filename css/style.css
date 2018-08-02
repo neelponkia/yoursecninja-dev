@@ -415,12 +415,6 @@ body {
 
 #owl-demo .partener-box {
 	text-align: center;
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	-ms-filter: grayscale(100%);
-	-o-filter: grayscale(100%);
-	filter: grayscale(100%);
-	opacity: .5;
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
@@ -529,7 +523,7 @@ body {
 }
 
 .team-img>img {
-  width: 78%;
+  width: 60%;
 }
 
 .team .overlay {
