@@ -495,7 +495,7 @@ body {
 .team {
     position: relative;
     background-color: #F4F4F4;
-    padding: 40px 00px;
+    /*padding: 40px 00px;*/
     margin: 15px 0px;
 }
 
@@ -523,7 +523,7 @@ body {
 }
 
 .team-img>img {
-  width: 60%;
+  /*width: 60%;*/
 }
 
 .team .overlay {
@@ -546,6 +546,7 @@ body {
     text-align: center;
     position: relative;
     z-index: 11;
+    padding-bottom: 20px;
 }
 
 .team .team-content h3 {
@@ -718,6 +719,126 @@ body {
 	background: #fff;
 	float: right;
 	right: 20px;
+}
+
+/*Product Page Style*/
+
+.products-box {
+	position: relative;
+	top: 16%;
+	color: #fff;
+}
+
+.product-box-background {
+	height: 240px;
+	background-image: url(../img/lightbg.jpg);
+	padding-left: 8.5em;
+	padding-top: 4em;
+}
+
+.product-box-title {
+	font-size: 2.5em; 
+	font-weight: 500;
+}
+
+.products-hr {
+	color: #fff;
+	font-size: 10px;
+	letter-spacing: 3px;
+	border-top: 3px solid #399BF5;
+	position: relative;
+    top: -10%;
+}
+
+.product-box-subtitle {
+	font-weight: lighter;
+}
+
+.what-we-do {
+	background: url(../img/products/dribbble_shot_hd.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+	margin-top: 6%;
+}
+
+.pentest {
+	background: url(../img/products/dribbbledebuts.png);
+	background-repeat: no-repeat;
+	height: 100%;
+	margin-top: -6%;
+}
+
+.blockchain {
+	background: url(../img/products/open_source__private_cloud_slack-alternative.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+	margin-top: -6%;
+}
+
+.audit-review {
+	background: url(../img/products/style-test-03.png);
+	background-repeat: no-repeat;
+	height: 100%;
+	margin-top: -6%;
+}
+.plbr {
+	background-position: right;
+}
+
+.blbr {
+	background-position: right;
+}
+
+.plbl {
+	background-position: left;
+}
+
+.arlbl {
+	background-position: left;
+}
+
+.products-landing-area {
+	padding-top: 11em;
+	padding-left: 5em;
+}
+
+.pltr {
+	float: right;
+}
+
+.sub-services {
+	line-height: 2;
+	list-style: none;
+  	padding: 0;
+}
+
+.sub-services li {
+	padding-left: 1.3em;
+}
+
+.sub-services li:before {
+  content: "\f061"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  font-weight: lighter;
+  color: #fb5f6e;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+.products-landing-title {
+	font-size: 2.5em;
+	color: #37424a;
+	margin-bottom: 0.5em;
+}
+
+.products-landing-subtitle {
+	color: #6e7076;
+	margin-top: -30px;
+}
+
+.products-landing-text {
+	width: 45%;
 }
 
 @media screen and (max-height: 450px) {
