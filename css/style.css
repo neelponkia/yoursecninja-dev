@@ -183,6 +183,10 @@ body {
 	font-weight: bold;
 }
 
+#service-title-1 {
+	padding-top: 20px;
+}
+
 .service-icon img {
 	width: 40px;
 }
@@ -196,8 +200,16 @@ body {
 	width: 50px;
 }
 
+#pentest-icon-size {
+	width: 50px;
+}
+
+#shield-icon-size {
+	width: 50px;
+}
+
 #cloud-icon-size {
-	width: 45px;
+	width: 55px;
 }
 
 .service-content {

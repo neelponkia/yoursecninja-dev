@@ -3,45 +3,45 @@ $(document).ready( function() {
 	
 	$("#service-box-1").hover(function() {
 		$("#service-title-1").addClass('active-title');
-		$("#team-icon-size").attr('src', 'img/icons/team.png');
+		$("#team-icon-size").attr('src', 'img/icons/coding.png');
 	}, function() {
 		$("#service-title-1").removeClass('active-title');
-		$("#team-icon-size").attr('src', 'img/icons/team-black.png');
+		$("#team-icon-size").attr('src', 'img/icons/coding-black.png');
 	});
 	$("#service-box-2").hover(function() {
 		$("#service-title-2").addClass('active-title');
-		$("#cloud-icon-size").attr('src', 'img/icons/cloud.png');
+		$("#cloud-icon-size").attr('src', 'img/icons/bitcoin.png');
 	}, function() {
 		$("#service-title-2").removeClass('active-title');
-		$("#cloud-icon-size").attr('src', 'img/icons/cloud-black.png');
+		$("#cloud-icon-size").attr('src', 'img/icons/bitcoin-black.png');
 	});
 	$("#service-box-3").hover(function() {
 		$("#service-title-3").addClass('active-title');
-		$("#pentest-icon-size").attr('src', 'img/icons/infected.png');
+		$("#pentest-icon-size").attr('src', 'img/icons/website.png');
 	}, function() {
 		$("#service-title-3").removeClass('active-title');
-		$("#pentest-icon-size").attr('src', 'img/icons/infected-black.png');
+		$("#pentest-icon-size").attr('src', 'img/icons/website-black.png');
 	});
 	$("#service-box-4").hover(function() {
 		$("#service-title-4").addClass('active-title');
-		$("#training-icon-size").attr('src', 'img/icons/presentation.png');
+		$("#training-icon-size").attr('src', 'img/icons/inspection.png');
 	}, function() {
 		$("#service-title-4").removeClass('active-title');
-		$("#training-icon-size").attr('src', 'img/icons/presentation-black.png');
+		$("#training-icon-size").attr('src', 'img/icons/inspection-black.png');
 	});
 	$("#service-box-5").hover(function() {
 		$("#service-title-5").addClass('active-title');
-		$("#globe-icon-size").attr('src', 'img/icons/globe.png');
+		$("#globe-icon-size").attr('src', 'img/icons/bug.png');
 	}, function() {
 		$("#service-title-5").removeClass('active-title');
-		$("#globe-icon-size").attr('src', 'img/icons/globe-black.png');
+		$("#globe-icon-size").attr('src', 'img/icons/bug-black.png');
 	});
 	$("#service-box-6").hover(function() {
 		$("#service-title-6").addClass('active-title');
-		$("#shield-icon-size").attr('src', 'img/icons/shield2.png');
+		$("#shield-icon-size").attr('src', 'img/icons/customer-service.png');
 	}, function() {
 		$("#service-title-6").removeClass('active-title');
-		$("#shield-icon-size").attr('src', 'img/icons/shield2-black.png');
+		$("#shield-icon-size").attr('src', 'img/icons/customer-service-black.png');
 	});
 	  
 
