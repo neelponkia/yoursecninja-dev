@@ -74,6 +74,7 @@ $(document).ready( function() {
 	    margin:80, 
 	    items: 5,
         loop: true,
+        autoplayTimeout: 2000,
         autoplayHoverPause: true,
         autoplay: true,
         responsive: {
